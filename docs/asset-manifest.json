@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Manu-Sucaria/static/css/main.4b95c422.css",
+    "main.css": "/Manu-Sucaria/static/css/main.948705b9.css",
     "main.js": "/Manu-Sucaria/static/js/main.86547a24.js",
     "static/media/linkedin1.png": "/Manu-Sucaria/static/media/linkedin1.69bfa9a65e2b697ba49b.png",
     "static/media/instagram.ico": "/Manu-Sucaria/static/media/instagram.8e408da00539cdef4629.ico",
     "static/media/copyright.ico": "/Manu-Sucaria/static/media/copyright.bac4f0a6a97e0fbd6f71.ico",
     "index.html": "/Manu-Sucaria/index.html",
-    "main.4b95c422.css.map": "/Manu-Sucaria/static/css/main.4b95c422.css.map",
+    "main.948705b9.css.map": "/Manu-Sucaria/static/css/main.948705b9.css.map",
     "main.86547a24.js.map": "/Manu-Sucaria/static/js/main.86547a24.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b95c422.css",
+    "static/css/main.948705b9.css",
     "static/js/main.86547a24.js"
   ]
 }

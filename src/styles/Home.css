@@ -337,6 +337,9 @@
 
 /*CEL*/
 @media screen and (max-width: 361px) {
+    .contenedor-divs{
+        height: 60vh;
+    }
     .contenedor-tecnologias{
         padding-right: .7rem;
         padding-top: .2rem;
@@ -382,6 +385,9 @@
 }
 /*SMART*/
 @media screen and (min-width: 361px) and (max-width: 450px) {
+    .contenedor-divs{
+        height: 60vh;
+    }
     .contenedor-tecnologias{
         padding-right: .7rem;
         padding-top: .2rem;
