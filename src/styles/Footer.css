@@ -1,0 +1,166 @@
+.footer{
+    background-color: rgb(1, 1, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+.contenedor-redes{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+}
+.instagram{
+    border-radius: 1rem;
+    margin-right: 10rem;
+    height: 4rem;
+    width: 4rem;
+}
+.ins{
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+}
+.linkedin{
+    border-radius: 1rem;
+    margin-left: 10rem;
+    height: 4rem;
+    width: 4rem;
+}
+.lk{
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+}
+.copyright{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5rem;
+}
+.texto-copy{
+    font-size: 1.2rem;
+    color: rgb(253, 253, 253);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.foto-copyright{
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(44, 177, 177);
+    border-radius: 1rem;
+    height: 1.8rem;
+    width: 1.8rem;
+    margin-right: .5rem;
+}
+
+/*CEL*/
+@media screen and (max-width: 361px) {
+    .texto-copy{
+        font-size: 1rem;
+    }
+    .foto-copyright {
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-right: .5rem;
+    }
+    .instagram{
+        margin-right: 4rem;
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    .linkedin{
+        margin-left: 4rem;
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+}
+
+/*SMART*/
+@media screen and (max-width: 450px) and (min-width: 361px) {
+    .texto-copy {
+        font-size: 1.1rem;
+    }
+    .foto-copyright {
+        height: 1.8rem;
+        width: 1.8rem;
+        margin-right: .5rem;
+    }
+    .instagram{
+        margin-right: 4rem;
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    .linkedin{
+        margin-left: 4rem;
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+}
+
+/*TABLET*/
+@media screen and (max-width: 687px) and (min-width: 450px) {
+    .texto-copy {
+        font-size: 1.2rem;
+    }
+    .foto-copyright {
+        height: 1.8rem;
+        width: 1.8rem;
+        margin-right: .5rem;
+    }
+    .instagram{
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    .linkedin{
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+}
+
+/*TABLET XL*/
+@media screen and (min-width: 687px) and (max-width: 900px) {
+    .texto-copy {
+        font-size: 1.2rem;
+    }
+    .foto-copyright {
+        height: 1.8rem;
+        width: 1.8rem;
+        margin-right: .5rem;
+    }
+    .instagram{
+        height: 3.7rem;
+        width: 3.7rem;
+    }
+    .linkedin{
+        height: 3.7rem;
+        width: 3.7rem;
+    }
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 900px) and (max-width: 1110px) {
+    .texto-copy {
+        font-size: 1.2rem;
+    }
+    .foto-copyright {
+        height: 1.8rem;
+        width: 1.8rem;
+        margin-right: .5rem;
+    }
+}
+
+/* WIDE */
+@media screen and (min-width: 1110px) and (max-width: 1350px) {
+    .texto-copy {
+        font-size: 1.2rem;
+    }
+    .foto-copyright {
+        height: 1.8rem;
+        width: 1.8rem;
+        margin-right: .5rem;
+    }
+}

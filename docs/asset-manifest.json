@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/manusucaria/static/css/main.7028dcf0.css",
+    "main.js": "/manusucaria/static/js/main.12c27d7d.js",
+    "static/media/linkedin1.png": "/manusucaria/static/media/linkedin1.69bfa9a65e2b697ba49b.png",
+    "static/media/instagram.ico": "/manusucaria/static/media/instagram.8e408da00539cdef4629.ico",
+    "static/media/portada2.jpg": "/manusucaria/static/media/portada2.8726836b89548e4537e1.jpg",
+    "static/media/portada3.jpg": "/manusucaria/static/media/portada3.ce102f305dbc65c3942a.jpg",
+    "static/media/copyright.ico": "/manusucaria/static/media/copyright.bac4f0a6a97e0fbd6f71.ico",
+    "index.html": "/manusucaria/index.html",
+    "main.7028dcf0.css.map": "/manusucaria/static/css/main.7028dcf0.css.map",
+    "main.12c27d7d.js.map": "/manusucaria/static/js/main.12c27d7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7028dcf0.css",
+    "static/js/main.12c27d7d.js"
+  ]
+}

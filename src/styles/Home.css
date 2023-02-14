@@ -1,0 +1,599 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+@keyframes display{
+    0% {
+        transform: translateY(-1.5rem);
+    }
+    33.3333% {
+        transform: translateY(-1rem);
+    }
+    66.6666% {
+        transform: translateY(-.5rem);
+    }
+}
+@keyframes engranaje-1{
+    0% {
+            transform: rotate(30deg);
+            grid-column: 1/2;
+            grid-row: 1/6;
+        }
+    12.5%{
+            grid-column: 1/3;
+            grid-row: 1/4;
+        }
+    25% {
+            grid-column: 2/5;
+            grid-row: 1/3;
+        }
+    37.5% {
+            grid-column: 3/6;
+            grid-row: 1/3;
+        }
+    50%{
+            grid-column: 5/6;
+            grid-row: 1/6;
+        }
+    62.5%{
+            grid-column: 4/6;
+            grid-row: 3/6;
+        }
+    75% {
+            grid-column: 2/5;
+            grid-row: 4/6;
+        }
+    87.5% {
+            grid-column: 1/4;
+            grid-row: 4/6;
+        }
+}
+@keyframes engranaje-2{
+    0% {
+            transform: rotate(30deg);
+            grid-column: 2/5;
+            grid-row: 1/3;
+        }
+    12.5% {
+            grid-column: 3/6;
+            grid-row: 1/3;
+        }
+    25%{
+            grid-column: 5/6;
+            grid-row: 1/6;
+        }
+    37.5%{
+            grid-column: 4/6;
+            grid-row: 3/6;
+        }
+    50% {
+            grid-column: 2/5;
+            grid-row: 4/6;
+        }
+    62.5% {
+            grid-column: 1/4;
+            grid-row: 4/6;
+        }
+    75% {
+            grid-column: 1/2;
+            grid-row: 1/6;
+        }
+    87.5% {
+            grid-column: 1/3;
+            grid-row: 1/4;
+        }
+}
+@keyframes engranaje-3{
+    0% {
+            transform: rotate(-30deg);
+            grid-column: 2/5;
+            grid-row: 4/6;
+        }
+    12.5% {
+            grid-column: 1/4;
+            grid-row: 4/6;
+        }
+    25% {
+            grid-column: 1/2;
+            grid-row: 1/6;
+        }
+    37.5%{
+            grid-column: 1/3;
+            grid-row: 1/4;
+        }
+    50% {
+            grid-column: 2/5;
+            grid-row: 1/3;
+        }
+    62.5% {
+            grid-column: 3/6;
+            grid-row: 1/3;
+        }
+    75%{
+            grid-column: 5/6;
+            grid-row: 1/6;
+        }
+    87.5%{
+            grid-column: 4/6;
+            grid-row: 3/6;
+        }
+}
+@keyframes engranaje-4{
+    0%{
+            transform: rotate(-30deg);
+            grid-column: 5/6;
+            grid-row: 1/6;
+        }
+    12.5% {
+            grid-column: 4/6;
+            grid-row: 3/6;
+        }
+    25% {
+            grid-column: 2/5;
+            grid-row: 4/6;
+        }
+    37.5% {
+            grid-column: 1/4;
+            grid-row: 4/6;
+        }
+    50% {
+            grid-column: 1/2;
+            grid-row: 1/6;
+        }
+    62.5%{
+            grid-column: 1/3;
+            grid-row: 1/4;
+        }
+    75% {
+            grid-column: 2/5;
+            grid-row: 1/3;
+        }
+    87.5% {
+            grid-column: 3/6;
+            grid-row: 1/3;
+        }
+}
+.contenedor-divs{
+    background-color: rgb(1, 1, 1);
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+.contenedor-tecnologias{
+    grid-column: 5/6;
+    grid-row: 1/2;
+    padding-right: 2.3rem;
+    display: flex;
+    z-index: 105;
+    width: 100%;
+    height: 100%;
+}
+.contenedor-tecnologias2{
+    grid-column: 5/6;
+    grid-row: 1/4;
+    padding-right: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 105;
+    width: 100%;
+    height: 100%;
+}
+.tecno{
+    font-size: 2.5rem;
+    padding: .5rem .5rem 0 0;
+    margin-bottom: auto;
+    margin-left: auto;
+    color: rgb(253, 253, 253);
+}
+.tecno:hover{
+    cursor: pointer;
+}
+.tecnoLista{
+    font-size: 2.5rem;
+    padding: .5rem .5rem .7rem 0;
+    margin-left: auto;
+    color: rgb(253, 253, 253);
+}
+.tecnoLista:hover{
+    cursor: pointer;
+}
+.html-link{
+    text-decoration: none;
+    animation-name: display;
+    animation-duration: .3s;
+    margin: 0 1rem .5rem auto;
+    width: auto;
+    height: auto;
+}
+.html{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(253, 253, 253);
+    padding: 0;
+}
+.html:hover{
+    cursor: pointer;
+}
+.js-link{
+    text-decoration: none;
+    animation-name: display;
+    animation-duration: .3s;
+    margin: .5rem 1rem .5rem auto;
+    width: auto;
+    height: auto;
+}
+.js{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(253, 253, 253);
+    padding: 0;
+}
+.js:hover{
+    cursor: pointer;
+}
+.react-link{
+    text-decoration: none;
+    animation-name: display;
+    animation-duration: .3s;
+    margin: .5rem 1rem .5rem auto;
+    width: auto;
+    height: auto;
+}
+.react{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(253, 253, 253);
+    padding: 0;
+
+}
+.react:hover{
+    cursor: pointer;
+}
+.div-1{
+    animation-name: engranaje-1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-color: rgb(44, 177, 177);
+    grid-column: 1/2;
+    grid-row: 1/6;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+.div-2{
+    animation-name: engranaje-2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-color: rgb(253, 1, 1);
+    grid-column: 2/5;
+    grid-row: 1/3;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+}
+.div-3{
+    display: flex;
+    color: rgb(253, 253, 253);
+    grid-column: 2/5;
+    grid-row: 3/4;
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+}
+.div-4{
+    animation-name: engranaje-3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-color: rgb(235, 130, 245);
+    grid-column: 2/5;
+    grid-row: 4/6;
+    width: 100%;
+    height: 100%;
+}
+.div-5{
+    animation-name: engranaje-4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-color: rgb(211, 211, 37);
+    grid-column: 5/6;
+    grid-row: 1/6;
+    width: 100%;
+    height: 100%;
+}
+.contenedor-titulos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-portfolio{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-size: 5rem;
+    z-index: 100;
+    margin: 0 1rem 0 1rem;
+}
+.titulo-portfolio:hover{
+    cursor: pointer;
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+}
+.texto-portfolio{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-size: 3rem;
+    z-index: 100;
+    margin: 0 1rem 1rem 1rem;
+}
+.texto-portfolio:hover{
+    cursor: pointer;
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+}
+
+/*CEL*/
+@media screen and (max-width: 361px) {
+    .contenedor-tecnologias{
+        padding-right: .7rem;
+        padding-top: .2rem;
+    }
+    .contenedor-tecnologias2{
+        padding-right: .7rem;
+        padding-top: .2rem;
+    }
+    .tecno{
+        font-size: 1.3rem;
+        padding: .3rem .3rem 0 .3rem;
+    }
+    .tecnoLista{
+        font-size: 1.3rem;
+        padding: .3rem .3rem .1rem .3rem;
+    }
+    .html-link{
+        margin: 0 .3rem 0 auto;
+    }
+    .html{
+        font-size: 1rem;
+    }
+    .js-link{
+        margin: .1rem .3rem 0 auto;
+    }
+    .js{
+        font-size: 1rem;
+    }
+    .react-link{
+        margin: .2rem .3rem 0 auto;
+    }
+    .react{
+        font-size: 1rem;
+    }
+    .titulo-portfolio{
+        font-size: 1.3rem;
+        margin-bottom: .3rem;
+    }
+    .texto-portfolio{
+        font-size: 1.1rem;
+        margin: 0;
+    }
+}
+/*SMART*/
+@media screen and (min-width: 361px) and (max-width: 450px) {
+    .contenedor-tecnologias{
+        padding-right: .7rem;
+        padding-top: .2rem;
+    }
+    .contenedor-tecnologias2{
+        padding-right: .7rem;
+        padding-top: .2rem;
+    }
+    .tecno{
+        font-size: 1.4rem;
+        padding: .3rem .3rem 0 .3rem;
+    }
+    .tecnoLista{
+        font-size: 1.4rem;
+        padding: .3rem .3rem .1rem .3rem;
+    }
+    .html-link{
+        margin: 0 .3rem 0 auto;
+    }
+    .html{
+        font-size: 1.1rem;
+    }
+    .js-link{
+        margin: .1rem .3rem 0 auto;
+    }
+    .js{
+        font-size: 1.1rem;
+    }
+    .react-link{
+        margin: .2rem .3rem 0 auto;
+    }
+    .react{
+        font-size: 1.1rem;
+    }
+    .titulo-portfolio{
+        font-size: 1.4rem;
+        margin-bottom: .3rem;
+    }
+    .texto-portfolio{
+        font-size: 1.2rem;
+        margin: 0;
+    }
+}
+/*TABLET*/
+@media screen and (min-width: 450px) and (max-width: 687px) {
+    .contenedor-tecnologias{
+        padding-right: 1rem;
+    }
+    .contenedor-tecnologias2{
+        padding-right: 1rem;
+    }
+    .tecno{
+        font-size: 1.7rem;
+        padding: .5rem .5rem 0 .5rem;
+    }
+    .tecnoLista{
+        font-size: 1.7rem;
+        padding: .5rem .5rem .5rem .5rem;
+    }
+    .html-link{
+        margin: 0 .5rem 0 auto;
+    }
+    .html{
+        font-size: 1.1rem;
+    }
+    .js-link{
+        margin: .4rem .5rem 0 auto;
+    }
+    .js{
+        font-size: 1.1rem;
+    }
+    .react-link{
+        margin: .4rem .5rem 0 auto;
+    }
+    .react{
+        font-size: 1.1rem;
+    }
+    .titulo-portfolio{
+        font-size: 1.9rem;
+        margin: 0 1rem .5rem 1rem;
+    }
+    .texto-portfolio{
+        font-size: 1.6rem;
+        margin: 0 1rem 1rem 1rem;
+    }
+}
+/* TABLET XL */
+@media screen and (min-width: 687px) and (max-width: 900px) {
+    .contenedor-tecnologias{
+        padding-right: 1.3rem;
+    }
+    .contenedor-tecnologias2{
+        padding-right: 1.3rem;
+    }
+    .tecno{
+        font-size: 2.2rem;
+        padding: .5rem .5rem 0 0;
+    }
+    .tecnoLista{
+        font-size: 2.2rem;
+        padding: .5rem .5rem .6rem 0;
+    }
+    .html-link{
+        margin: 0 .5rem 0 auto;
+    }
+    .html{
+        font-size: 1.4rem;
+    }
+    .js-link{
+        margin: .4rem .5rem 0 auto;
+    }
+    .js{
+        font-size: 1.4rem;
+    }
+    .react-link{
+        margin: .4rem .5rem 0 auto;
+    }
+    .react{
+        font-size: 1.4rem;
+    }
+    .titulo-portfolio{
+        font-size: 3.2rem;
+        margin: 0 1rem 0 1rem;
+    }
+    .texto-portfolio{
+        font-size: 2.3rem;
+        margin: 0 1rem 1rem 1rem;
+    }
+}
+/* DESKTOP */
+@media screen and (min-width: 900px) and (max-width: 1110px) {
+    .contenedor-tecnologias{
+        padding-right: 1.6rem;
+    }
+    .contenedor-tecnologias2{
+        padding-right: 1.6rem;
+    }
+    .tecno{
+        font-size: 2.3rem;
+        padding: .5rem .5rem 0 0;
+    }
+    .tecnoLista{
+        font-size: 2.3rem;
+        padding: .5rem .5rem .7rem 0;
+    }
+    .html-link{
+        margin: 0 .5rem 0 auto;
+    }
+    .html{
+        font-size: 1.5rem;
+    }
+    .js-link{
+        margin: .5rem .5rem 0 auto;
+    }
+    .js{
+        font-size: 1.5rem;
+    }
+    .react-link{
+        margin: .5rem .5rem 0 auto;
+    }
+    .react{
+        font-size: 1.5rem;
+    }
+    .titulo-portfolio{
+        font-size: 3.9rem;
+        margin: 0 1rem 0 1rem;
+    }
+    .texto-portfolio{
+        font-size: 2.7rem;
+        margin: 0 1rem 1rem 1rem;
+    }
+}
+/* WIDE */
+@media screen and (min-width: 1110px) and (max-width: 1350px) {
+    .contenedor-tecnologias{
+        padding-right: 1.7rem;
+    }
+    .contenedor-tecnologias2{
+        padding-right: 1.7rem;
+    }
+    .tecno{
+        font-size: 2.4rem;
+        padding: .5rem .5rem 0 0;
+    }
+    .tecnoLista{
+        font-size: 2.4rem;
+        padding: .5rem .5rem .7rem 0;
+    }
+    .html-link{
+        margin: 0 .5rem 0 auto;
+    }
+    .html{
+        font-size: 1.5rem;
+    }
+    .js-link{
+        margin: .5rem .5rem 0 auto;
+    }
+    .js{
+        font-size: 1.5rem;
+    }
+    .react-link{
+        margin: .5rem .5rem 0 auto;
+    }
+    .react{
+        font-size: 1.5rem;
+    }
+    .titulo-portfolio{
+        font-size: 4.5rem;
+        margin: 0 1rem 0 1rem;
+    }
+    .texto-portfolio{
+        font-size: 2.9rem;
+        margin: 0 1rem 1rem 1rem;
+    }
+}
