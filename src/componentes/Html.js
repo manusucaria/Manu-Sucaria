@@ -1,13 +1,16 @@
-import fotoHtml from '../assets/img/portada2.jpg';
 import '../styles/Html.css';
 
+const iframe = '<iframe src="https://manusucaria.github.io/Fuga/" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+function Iframe(props) {
+    return (<div dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
+}
 const Html = () => {
     return (
         <div id='ht' className='div-html'>
-            <h2 className='titulo-seccion'>HTML/CSS</h2>
-            <a href="https://manusucaria.github.io/Fuga/" target="_blank" rel="noopener noreferrer" className='contenedor-img'>
-                <img className= "foto-html" src={fotoHtml} alt="Foto de Portada" />
-            </a>
+            <a className='link-iframe' href="https://manusucaria.github.io/Fuga/" target="_blank" rel="noopener noreferrer"><h2 className='titulo-seccion'>HTML/CSS</h2></a>
+            <div className='contenedor-img'>
+                <Iframe className="iframe" iframe={iframe} />,
+            </div>
         </div>
     )
 }

@@ -8,6 +8,7 @@
 }
 .contenedor-redes{
     display: flex;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2.5rem;
@@ -31,6 +32,16 @@
     width: 4rem;
 }
 .lk{
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+}
+.github{
+    border-radius: 1rem;
+    height: 6rem;
+    width: 6rem;
+}
+.gi{
     border-radius: 1rem;
     height: 100%;
     width: 100%;
@@ -67,6 +78,10 @@
         width: 1.5rem;
         margin-right: .5rem;
     }
+    .github{
+        height: 5.5rem;
+        width: 5.5rem;
+    }
     .instagram{
         margin-right: 4rem;
         height: 3.5rem;
@@ -88,6 +103,10 @@
         height: 1.8rem;
         width: 1.8rem;
         margin-right: .5rem;
+    }
+    .github{
+        height: 5rem;
+        width: 5rem;
     }
     .instagram{
         margin-right: 4rem;
@@ -111,6 +130,10 @@
         width: 1.8rem;
         margin-right: .5rem;
     }
+    .github{
+        height: 5.5rem;
+        width: 5.5rem;
+    }
     .instagram{
         height: 3.5rem;
         width: 3.5rem;
@@ -130,6 +153,10 @@
         height: 1.8rem;
         width: 1.8rem;
         margin-right: .5rem;
+    }
+    .github{
+        height: 5.7rem;
+        width: 5.7rem;
     }
     .instagram{
         height: 3.7rem;
