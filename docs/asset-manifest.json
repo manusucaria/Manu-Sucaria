@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/manusucaria/static/css/main.4b95c422.css",
-    "main.js": "/manusucaria/static/js/main.d164b14d.js",
-    "static/media/linkedin1.png": "/manusucaria/static/media/linkedin1.69bfa9a65e2b697ba49b.png",
-    "static/media/instagram.ico": "/manusucaria/static/media/instagram.8e408da00539cdef4629.ico",
-    "static/media/copyright.ico": "/manusucaria/static/media/copyright.bac4f0a6a97e0fbd6f71.ico",
-    "index.html": "/manusucaria/index.html",
-    "main.4b95c422.css.map": "/manusucaria/static/css/main.4b95c422.css.map",
-    "main.d164b14d.js.map": "/manusucaria/static/js/main.d164b14d.js.map"
+    "main.css": "/Manu-Sucaria/static/css/main.4b95c422.css",
+    "main.js": "/Manu-Sucaria/static/js/main.18b649a0.js",
+    "static/media/linkedin1.png": "/Manu-Sucaria/static/media/linkedin1.69bfa9a65e2b697ba49b.png",
+    "static/media/instagram.ico": "/Manu-Sucaria/static/media/instagram.8e408da00539cdef4629.ico",
+    "static/media/copyright.ico": "/Manu-Sucaria/static/media/copyright.bac4f0a6a97e0fbd6f71.ico",
+    "index.html": "/Manu-Sucaria/index.html",
+    "main.4b95c422.css.map": "/Manu-Sucaria/static/css/main.4b95c422.css.map",
+    "main.18b649a0.js.map": "/Manu-Sucaria/static/js/main.18b649a0.js.map"
   },
   "entrypoints": [
     "static/css/main.4b95c422.css",
-    "static/js/main.d164b14d.js"
+    "static/js/main.18b649a0.js"
   ]
 }
