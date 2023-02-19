@@ -252,6 +252,9 @@
     cursor: pointer;
 }
 .div-1{
+    box-shadow: inset .01rem .01rem 10rem rgb(37, 149, 149);
+    box-shadow: .1rem .1rem 1rem rgb(43, 42, 42);
+    border-radius: .5rem;
     animation-name: engranaje-1;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -263,6 +266,9 @@
     z-index: 100;
 }
 .div-2{
+    box-shadow: inset .01rem .01rem 10rem rgb(205, 2, 2);
+    box-shadow: .1rem .1rem 1rem rgb(43, 42, 42);
+    border-radius: .5rem;
     animation-name: engranaje-2;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -283,6 +289,9 @@
     z-index: 101;
 }
 .div-4{
+    box-shadow: inset .01rem .01rem 10rem rgb(185, 103, 193);
+    box-shadow: .1rem .1rem 1rem rgb(43, 42, 42);
+    border-radius: .5rem;
     animation-name: engranaje-3;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -293,6 +302,9 @@
     height: 100%;
 }
 .div-5{
+    box-shadow: inset .01rem .01rem 10rem rgb(177, 177, 32);
+    box-shadow: .1rem .1rem 1rem rgb(43, 42, 42);
+    border-radius: .5rem;
     animation-name: engranaje-4;
     animation-duration: 10s;
     animation-iteration-count: infinite;

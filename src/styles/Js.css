@@ -8,8 +8,8 @@
     padding-bottom: 4rem;
 }
 .link-iframe{
-    margin-top: .9rem;
-    margin-bottom: .9rem;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -27,6 +27,7 @@
     margin-right: auto;
     width: 90%;
     height: 100%;
+    box-shadow: .1rem .1rem 2rem rgb(55, 54, 54);
 }
 iframe{
     display: flex;
@@ -37,12 +38,15 @@ iframe{
 
 /*CEL*/
 @media screen and (max-width: 361px) {
+    .contenedor-img{
+        width: 85%;
+    }
     .div-js{
         padding-bottom: 3rem;
     }
     .link-iframe{
-        margin-top: .5rem;
-        margin-bottom: .5rem;
+        margin-top: .4rem;
+        margin-bottom: .4rem;
     }
     .titulo-seccion{
         font-size: 1.9rem;
@@ -51,12 +55,15 @@ iframe{
 
 /*SMART*/
 @media screen and (min-width: 361px) and (max-width: 450px) {
+    .contenedor-img{
+        width: 85%;
+    }
     .div-js{
         padding-bottom: 3rem;
     }
     .link-iframe{
-        margin-top: .5rem;
-        margin-bottom: .5rem;
+        margin-top: .4rem;
+        margin-bottom: .4rem;
     }
     .titulo-seccion{
         font-size: 1.5rem;
