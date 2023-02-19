@@ -84,8 +84,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    height: 100vh;
-    object-fit: cover;
+    height: auto;
     border-radius: 1rem;
     box-shadow: .1rem .1rem 2rem rgb(55, 54, 54);
 }
@@ -100,6 +99,9 @@ iframe{
 @media screen and (max-width: 361px) {
     .contenedor-img{
         width: 85%;
+    }
+    .iframe{
+        height: 70vh;
     }
     .div-html{
         padding-bottom: 3rem;
@@ -126,6 +128,9 @@ iframe{
 @media screen and (min-width: 361px) and (max-width: 450px) {
     .contenedor-img{
         width: 85%;
+    }
+    .iframe{
+        height: 70vh;
     }
     .div-html{
         padding-bottom: 3rem;
