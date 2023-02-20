@@ -6,7 +6,7 @@ const iframe = '<iframe src="https://manusucaria.github.io/dulcecapricho/" style
 function Iframe(props) {
     return (<div dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
 }
-const texto = "Web desarrollada en React para una empresa de Pastelería. Incluye Firebase y otros frameworks y Librerías. Full responsive, y utiliza Firebase para guardar órdenes e información de usuarios, asi como también para actualizar nuevos productos. Click para dirigirte a la página. // Web developed using React for a Cake Shop Company project. It includes Firebase and other frameworks and libraries. Full responsive and uses Firebase in order to save orders and user info and also to update new products. Click here to navigate.";
+const texto = "Web desarrollada en React para una empresa de Pastelería. Incluye Firebase y otros frameworks y Librerías. Full responsive, y utiliza Firebase para guardar órdenes e información de usuarios, asi como también para actualizar nuevos productos. Click para dirigirte a la página. // Web developed using React for a Cake Shop Company project. It includes Firebase and other frameworks and libraries. It's full responsive and uses Firebase in order to save orders and user info, and also to update new products. Click here to navigate.";
 
 const React = () => {
     const [links, setLinks] = useState(0);

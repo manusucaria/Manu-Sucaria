@@ -6,7 +6,7 @@ const iframe = '<iframe src="https://manusucaria.github.io/Escalada/" style="bor
 function Iframe(props) {
     return (<div dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
 }
-const texto = "Web desarollada usando Vainilla Javascript para una empresa de cerveza artesanal. Incluye Bootstrap, Sass y otros frameworks y librerías. Full responsive y utiliza el Local Host para guardar información de órdenes y usuarios. Click para dirigirte a la página. // Web developed using Vainila Javascript for a Beer Company project. It includes Bootstrap, Sass and other frameworks and libraries. Full responsive and uses Local Host in order to save orders and user info. Click here to navigate.";
+const texto = "Web desarollada usando Vanilla Javascript para una empresa de cerveza artesanal. Incluye Bootstrap, Sass y otros frameworks y librerías. Full responsive y utiliza el Local Host para guardar información de órdenes y usuarios. Click para dirigirte a la página. // Web developed using Vanila Javascript for a Beer Company project. It includes Bootstrap, Sass and other frameworks and libraries. Full responsive and uses Local Host in order to save orders and user info. Click here to navigate.";
 
 const Js = () => {
     const [links, setLinks] = useState(0);
