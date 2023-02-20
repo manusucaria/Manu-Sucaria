@@ -27,12 +27,13 @@ const React = () => {
                 <p onClick={detalles} className='link'>REACT</p>
             </div>
             <div className='contenedor-img'>
-                {links === 0? <Iframe className="iframe" iframe={iframe} />
+                {links === 0? <div></div>
                 :
                 <div className='contenedor-link-pagina'>
                     <a href="https://manusucaria.github.io/dulcecapricho/" target="_blank" rel="noopener noreferrer" className='link-pagina'>{text1}</a>
                 </div>
                 }
+                <Iframe className="iframe" iframe={iframe} />
             </div>
         </div>
     )

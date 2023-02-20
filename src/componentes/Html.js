@@ -27,12 +27,13 @@ const Html = () => {
                 <p onClick={detalles} className='link'>HTML/CSS</p>
             </div>
             <div className='contenedor-img'>
-                {links === 0? <Iframe className="iframe" iframe={iframe} />
+                {links === 0? <div></div>
                 :
                 <div className='contenedor-link-pagina'>
                     <a className='link-pagina' href="https://manusucaria.github.io/Fuga/" target="_blank" rel="noopener noreferrer">{text1}</a>
                 </div>
                 }
+                <Iframe className="iframe" iframe={iframe} />
             </div>
         </div>
     )
