@@ -6,7 +6,7 @@ const iframe = '<iframe src="https://manusucaria.github.io/Fuga/" style="border:
 function Iframe(props) {
     return (<div dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
 }
-const texto = "Web desarrollada usando solo HTML y CSS para una empresa de diseño de moda. Incluye Bootstrap, Sass y otros frameworks y librerías. Click para dirigirte a la página. // Web developed using only with HTML and CSS for a fashion design project. It includes Bootstrap, Sass and other frameworks and libraries. Full responsive. Click here to navigate.";
+const texto = "Web desarrollada usando solo HTML y CSS para una empresa de diseño de moda. Full responsive e incluye Bootstrap, Sass y otros frameworks y librerías. Click para dirigirte a la página. // Web developed using only with HTML and CSS for a fashion design project. It includes Bootstrap, Sass and other frameworks and libraries. Full responsive. Click here to navigate.";
 
 const Html = () => {
     const [links, setLinks] = useState(0);

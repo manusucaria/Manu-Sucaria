@@ -18,7 +18,6 @@ const Autor = () => {
                 <p className='cel'>Cel: +54 (9) 011 1556306090</p>
                 <p className='mail'>Mail: manusucaria@gmail.com</p>
             </div>
-
         </div>
     )
 }
